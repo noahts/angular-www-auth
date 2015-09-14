@@ -4,7 +4,7 @@
 
 (function() {
 
-  var app = angular.module('app', []);
+  var app = angular.module('app', ['angularBasicAuth']);
 
   app.constant('API_URL', 'http://localhost:4000');
 

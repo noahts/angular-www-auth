@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "homepage": "https://github.com/noahts/angular-www-auth",
+  "authors": [
+    "Noah Torp-Smith <noah@torpsmith.net>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.26",
+    "angular-basicauth": "~0.3.0"
+  }
+}
