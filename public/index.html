@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body ng-controller="MainCtrl as vm">
+
+<h1>Get Random Info</h1>
+
+<button ng-click="vm.getRandomPerson()">Click</button>
+<pre ng-bind="vm.randomPerson | json"></pre>
+
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "angular-www-auth",
+  "version": "0.0.0",
+  "description": "testing angular and www auth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:noahts/angular-www-auth.git"
+  },
+  "keywords": [
+    "www",
+    "auth"
+  ],
+  "author": "Noah Torp-Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahts/angular-www-auth/issues"
+  },
+  "homepage": "https://github.com/noahts/angular-www-auth",
+  "dependencies": {
+    "basic-auth": "^1.0.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "faker": "^3.0.1"
+  }
+}
